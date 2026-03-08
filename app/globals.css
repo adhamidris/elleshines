@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-charcoal font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-charcoal text-cream text-sm uppercase tracking-wider px-8 py-4 rounded-sm hover:bg-gold transition-colors duration-200 font-medium;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-charcoal text-charcoal text-sm uppercase tracking-wider px-8 py-4 rounded-sm hover:bg-charcoal hover:text-cream transition-colors duration-200 font-medium;
+  }
+
+  .section-label {
+    @apply text-xs uppercase tracking-widest text-gold;
+  }
+
+  .section-title {
+    @apply font-serif text-4xl md:text-5xl text-charcoal leading-tight;
+  }
+
+  .input-field {
+    @apply w-full border border-warm-border bg-white rounded-sm px-4 py-3 text-sm text-charcoal placeholder:text-warm-gray focus:outline-none focus:border-charcoal transition-colors duration-200;
+  }
+
+  .policy-content h2 {
+    @apply font-serif text-2xl text-charcoal mt-10 mb-4;
+  }
+
+  .policy-content h3 {
+    @apply font-serif text-xl text-charcoal mt-7 mb-3;
+  }
+
+  .policy-content p {
+    @apply text-warm-gray leading-relaxed mb-5;
+  }
+
+  .policy-content ul {
+    @apply list-disc list-inside text-warm-gray space-y-2 mb-5 ml-2;
+  }
+
+  .policy-content a {
+    @apply text-charcoal underline hover:text-gold transition-colors;
+  }
+}
