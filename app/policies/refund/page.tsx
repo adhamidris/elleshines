@@ -17,7 +17,7 @@ export default function RefundPolicy() {
           <p>
             At Elle Shines, your satisfaction is our priority. We offer a 30-day return and refund
             policy because we want you to shop with complete confidence. This policy applies to all
-            orders placed on elleshines.com by Elle Shines LTD, registered at 128 City Rd, London
+            orders placed on elle-shines.vercel.app by Elle Shines LTD, registered at 128 City Rd, London
             EC1V 2NX, UK.
           </p>
 

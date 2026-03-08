@@ -16,7 +16,7 @@ export default function TermsOfService() {
         <div className="policy-content">
           <p>
             These Terms of Service (&quot;Terms&quot;) govern your use of the Elle Shines website
-            (elleshines.com) and the purchase of products from Elle Shines LTD, with its office at
+            (elle-shines.vercel.app) and the purchase of products from Elle Shines LTD, with its office at
             128 City Rd, London EC1V 2NX, UK. By using our Site or placing an order, you agree to
             these Terms.
           </p>

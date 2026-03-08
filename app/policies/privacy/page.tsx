@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
           <p>
             This Privacy Policy describes how Elle Shines LTD (&quot;Elle Shines&quot;, &quot;we&quot;,
             &quot;our&quot;, or &quot;us&quot;) collects, uses, and shares information about you when you visit
-            our website at elleshines.com (the &quot;Site&quot;), purchase our products, or contact us.
+            our website at elle-shines.vercel.app (the &quot;Site&quot;), purchase our products, or contact us.
             Our registered address is 128 City Rd, London EC1V 2NX, United Kingdom.
           </p>
 
